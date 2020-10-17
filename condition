@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int n;
+printf("enter the number:");
+scanf("%d",&n);
+printf("%d",n>90?"grade A":(n>80?"gradeB":(n>60?"grade C":(n>40?"grade D":"grade F"))));
+return 0;
+}
